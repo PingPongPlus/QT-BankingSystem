@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>BankingIcon.png</file>
+        <file>evm.png</file>
+	<file>Bank2.png</file>
+	<file>BankSolo.png</file>
+	<file>Bitcoin.png</file>
+
+    </qresource>
+
+    <qresource prefix="/profile">
+    </qresource>
+
+    <qresource prefix="/new">
+    </qresource>
+</RCC>

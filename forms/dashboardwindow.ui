@@ -1,0 +1,1837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DashboardWindow</class>
+ <widget class="QMainWindow" name="DashboardWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1302</width>
+    <height>847</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="WidgetVert_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>381</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+    background-color: #96ceff;
+    color: #ffffff;
+    font-family: &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    padding: 12px;
+}</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="Icon">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="WidgetVert_2" native="true">
+       <property name="styleSheet">
+        <string notr="true">QWidget {
+    background-color: #4caafc;
+    color: #ffffff;
+    font-family: &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    padding: 12px;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="LabelName">
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Account : Admin</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QWidget" name="WidgetVert" native="true">
+          <property name="styleSheet">
+           <string notr="true">QWidget {
+    background-color: #0586f7;
+    color: #ffffff;
+    font-family: &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    font-size: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    padding: 12px;
+}</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QPushButton" name="InfoButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #0586f7;
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}
+
+QPushButton:hover {
+    background-color: #0267bf;
+    border: none;
+}
+QPushButton:pressed {
+    background-color: #262f87;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Information</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="HomeButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #0586f7;
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}
+
+QPushButton:hover {
+    background-color: #0267bf;
+    border: none;
+}
+QPushButton:pressed {
+    background-color: #262f87;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Home</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="TransferButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #0586f7;
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}
+
+QPushButton:hover {
+    background-color: #0267bf;
+    border: none;
+}
+QPushButton:pressed {
+    background-color: #262f87;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Transfer</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="InvestButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #0586f7;
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}
+
+QPushButton:hover {
+    background-color: #0267bf;
+    border: none;
+}
+
+QPushButton:pressed {
+    background-color: #262f87;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Investments</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="SignoutButton">
+             <property name="styleSheet">
+              <string notr="true">QPushButton {
+    background-color: #0586f7;
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}
+
+QPushButton:hover {
+    background-color: #0267bf;
+    border: none;
+}
+
+QPushButton:pressed {
+    background-color: #262f87;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+             </property>
+             <property name="text">
+              <string>Sign Out</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>-1</y>
+      <width>911</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>750</y>
+        <width>164</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #0586f7;
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}
+
+QPushButton:hover {
+    background-color: #0267bf;
+    border: none;
+}
+QPushButton:pressed {
+    background-color: #262f87;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>0</y>
+        <width>251</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Information</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>70</y>
+        <width>911</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextEdit {
+    background-color: #E6F7FF;
+    border: 2px solid #0099CC;
+    border-radius: 5px;
+    color: #003366;
+    padding: 5px;
+    font: 14px &quot;Arial&quot;;
+}
+
+QTextEdit:hover {
+    border: 2px solid #007ACC;
+}
+
+QTextEdit:focus {
+    border: 2px solid #005B99;
+    background-color: #D6EFFF;
+}</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:14px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:16pt; font-weight:700; color:#020202;&quot;&gt;About:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:14pt; color:#020202;&quot;&gt;This project was entirely build and programmed by me using QT and C++. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:14pt; color:#020202;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:14pt; color:#020202;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt; color:#020202;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:14pt; color:#020202;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>0</y>
+        <width>251</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Transfer</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>200</y>
+        <width>251</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #1E90FF, #00BFFF);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    min-height: 45px;
+    min-width: 140px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+QLabel:hover {
+    background: linear-gradient(45deg, #00BFFF, #1E90FF);
+    transform: translateY(-2px);
+}</string>
+      </property>
+      <property name="text">
+       <string>From</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalWidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>250</y>
+        <width>771</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget{
+	background: none;
+}</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QComboBox" name="combobox">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: black;
+}
+
+QComboBox:hover {
+  border-color: #9ec8ff;
+}
+
+QComboBox:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  outline: none;
+}
+
+QComboBox::drop-down {
+  border: none;
+  background: transparent;
+  subcontrol-origin: padding;
+  subcontrol-position: top right;
+  width: 20px;
+}
+
+QComboBox::down-arrow {
+  image: url(&quot;:/icons/down-arrow.png&quot;);
+  width: 12px;
+  height: 12px;
+}
+
+QComboBox QAbstractItemView {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  selection-background-color: #0078d7;
+  selection-color: white;
+  color: black;
+}</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Pingplus Bank</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>American Express</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Policy::Maximum</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>70</width>
+           <height>2</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="WhoLineEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="statusTip">
+          <string comment="username" extracomment="username"/>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+QLineEdit:hover {
+  border-color: #9ec8ff;
+}
+
+QLineEdit:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  outline: none;
+}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>200</y>
+        <width>251</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #1E90FF, #00BFFF);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    min-height: 45px;
+    min-width: 140px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+QLabel:hover {
+    background: linear-gradient(45deg, #00BFFF, #1E90FF);
+    transform: translateY(-2px);
+}</string>
+      </property>
+      <property name="text">
+       <string>To</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>350</y>
+        <width>251</width>
+        <height>69</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #1E90FF, #00BFFF);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    min-height: 45px;
+    min-width: 140px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+QLabel:hover {
+    background: linear-gradient(45deg, #00BFFF, #1E90FF);
+    transform: translateY(-2px);
+}</string>
+      </property>
+      <property name="text">
+       <string>Amount</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>530</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QCheckBox {
+  spacing: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+QCheckBox::indicator {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d0e8ff;
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+QCheckBox::indicator:hover {
+  border-color: #9ec8ff;
+}
+
+QCheckBox::indicator:checked {
+  border-color: #0078d7;
+  background-color: #0078d7;
+}
+
+QCheckBox::indicator:checked:hover {
+  border-color: #005bb5;
+  background-color: #005bb5;
+}
+
+QCheckBox::indicator:disabled {
+  border-color: #c5c5c5;
+  background-color: #f5f5f5;
+}</string>
+      </property>
+      <property name="text">
+       <string>Send anonymously</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>350</y>
+        <width>461</width>
+        <height>82</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #1E90FF, #00BFFF);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    min-height: 45px;
+    min-width: 140px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+QLabel:hover {
+    background: linear-gradient(45deg, #00BFFF, #1E90FF);
+    transform: translateY(-2px);
+}</string>
+      </property>
+      <property name="text">
+       <string>Enter a msg (optional)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SendButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>590</y>
+        <width>771</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+  border: 2px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+QPushButton:hover {
+  border-color: #9ec8ff;
+  background-color: #e6f4ff;
+}
+
+QPushButton:pressed {
+  border-color: #0078d7;
+  background-color: #0078d7;
+  color: #ffffff;
+}
+
+QPushButton:disabled {
+  border-color: #c5c5c5;
+  background-color: #f5f5f5;
+  color: #a0a0a0;
+}</string>
+      </property>
+      <property name="text">
+       <string>Send</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalWidget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>410</y>
+        <width>771</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#horizontalWidget_2{
+	background: none;
+
+}</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLineEdit" name="amount">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="statusTip">
+          <string comment="username" extracomment="username"/>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+QLineEdit:hover {
+  border-color: #9ec8ff;
+}
+
+QLineEdit:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  outline: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>1$</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Policy::Maximum</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>70</width>
+           <height>2</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="message">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="statusTip">
+          <string comment="username" extracomment="username"/>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+QLineEdit:hover {
+  border-color: #9ec8ff;
+}
+
+QLineEdit:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  outline: none;
+}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>0</y>
+        <width>191</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>881</width>
+        <height>781</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#tabWidget {
+    background-color: transparent;
+    border: none;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#tabWidget ::pane {
+    border: 1px solid #87CEEB;
+    border-radius: 8px;
+    padding: 10px;
+    background: #f0f8ff;
+}
+
+QTabBar::tab {
+    background: #add8e6;
+    border: 1px solid #87CEEB;
+    padding: 8px 16px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-right: 2px;
+    color: #333;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    border-color: #4682B4;
+    color: #000;
+}
+
+QTabBar::tab:hover {
+    background: #87CEFA;
+    color: #111;
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px;
+}</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Cards</string>
+       </attribute>
+       <widget class="QWidget" name="widget" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>80</y>
+          <width>451</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#widget {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 1,
+        stop: 0 #4a90e2,
+        stop: 0.5 #1c75bc,
+        stop: 1 #003f7f
+    );
+    color: #ffffff;
+    font-family: &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding: 12px;
+    transition: border 0.3s ease;
+}
+
+#widget:hover {
+    border: 2px solid #89c4f4;
+}</string>
+        </property>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>101</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#label_4{
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="Icon_2">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>10</y>
+           <width>371</width>
+           <height>251</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Icon_2{
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>190</y>
+           <width>291</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>DE76740201004939876676</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="usernameCard">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>170</y>
+           <width>164</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="BalanceCard1">
+         <property name="geometry">
+          <rect>
+           <x>-10</x>
+           <y>90</y>
+           <width>411</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 50px;
+    font-weight: cursiv;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>12525$</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>20</y>
+          <width>281</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Transaction history</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="listWidget">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>80</y>
+          <width>381</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#listWidget {
+    background-color: #f5f5f7;
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+#listWidget::viewport {
+    margin-right: 10px;
+}
+
+#listWidget::item {
+    padding: 10px 14px;
+    margin: 6px 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#listWidget::item:hover {
+    background-color: #d4e9fc;
+    color: #000;
+    border: 1px solid #0267bf;
+}
+
+#listWidget::item:selected {
+    background-color: #0586f7;
+    color: #ffffff;
+    border: 1px solid #0267bf;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: #f5f5f5;
+    height: 10px;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #0586f7;
+    min-width: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none;
+    background: none;
+    width: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #f5f5f5;
+    width: 10px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #0586f7;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>420</y>
+          <width>451</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#widget_3{
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 1,
+        stop: 0 #FFD700,
+        stop: 0.5 #bf8200,
+        stop: 1 #996800
+    );
+    font-family: &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding: 12px;
+}
+#widget_3:hover {
+    border: 2px solid #89c4f4;
+}</string>
+        </property>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>101</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#label_15{
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="Icon_4">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>20</y>
+           <width>191</width>
+           <height>221</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#Icon_4{
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>190</y>
+           <width>291</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>DE76740201004939876676</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="usernameCard_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>170</y>
+           <width>164</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+	background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="BalanceCard2_2">
+         <property name="geometry">
+          <rect>
+           <x>-10</x>
+           <y>90</y>
+           <width>411</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+    color: white;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 50px;
+    font-weight: cursiv;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+background: none;
+}</string>
+         </property>
+         <property name="text">
+          <string>1918$</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>351</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Pingplus Banking Card</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>360</y>
+          <width>351</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+        </property>
+        <property name="text">
+         <string>American Express Card</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Statistics</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>My Depo</string>
+       </attribute>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>0</y>
+        <width>251</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Invest</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>120</y>
+        <width>691</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#widget_2 {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #4caafc, stop: 1 #2a8cc8);
+    color: #ffffff;
+    font-family: &quot;Segoe UI&quot;, &quot;Helvetica Neue&quot;, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    padding: 12px;
+}</string>
+      </property>
+      <widget class="QLabel" name="BitcoinPrice">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>60</y>
+         <width>641</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: black;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+background: none;
+}</string>
+       </property>
+       <property name="text">
+        <string>Bitcoin:</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="verticalWidget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>290</y>
+         <width>481</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#verticalWidget{
+	background: none;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Maximum</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>100</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+QLineEdit:hover {
+  border-color: #9ec8ff;
+}
+
+QLineEdit:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  outline: none;
+}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="combobox_2">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: black;
+}
+
+QComboBox:hover {
+  border-color: #9ec8ff;
+}
+
+QComboBox:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  outline: none;
+}
+
+QComboBox::drop-down {
+  border: none;
+  background: transparent;
+  subcontrol-origin: padding;
+  subcontrol-position: top right;
+  width: 20px;
+}
+
+QComboBox::down-arrow {
+  image: url(&quot;:/icons/down-arrow.png&quot;);
+  width: 12px;
+  height: 12px;
+}
+
+QComboBox QAbstractItemView {
+  border: 1px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  selection-background-color: #0078d7;
+  selection-color: white;
+  color: black;
+}</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Pingplus Bank</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>American Express</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="sizeConstraint">
+           <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+          </property>
+          <item>
+           <widget class="QPushButton" name="Invest">
+            <property name="cursor">
+             <cursorShape>UpArrowCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+  border: 2px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+QPushButton:hover {
+  border-color: #9ec8ff;
+  background-color: #e6f4ff;
+}
+
+QPushButton:pressed {
+  border-color: #0078d7;
+  background-color: #0078d7;
+  color: #ffffff;
+}
+
+QPushButton:disabled {
+  border-color: #c5c5c5;
+  background-color: #f5f5f5;
+  color: #a0a0a0;
+}</string>
+            </property>
+            <property name="text">
+             <string>Buy</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Sell">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+  border: 2px solid #d0e8ff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+QPushButton:hover {
+  border-color: #9ec8ff;
+  background-color: #e6f4ff;
+}
+
+QPushButton:pressed {
+  border-color: #0078d7;
+  background-color: #0078d7;
+  color: #ffffff;
+}
+
+QPushButton:disabled {
+  border-color: #c5c5c5;
+  background-color: #f5f5f5;
+  color: #a0a0a0;
+}</string>
+            </property>
+            <property name="text">
+             <string>Sell</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>220</y>
+         <width>771</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #00d119;
+    font-family: &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 14px;
+    min-height: 40px;
+    min-width: 120px;
+    letter-spacing: 0.4px;
+background: none;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Invest in some Bitcoin!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="BitcoinIcon">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>70</y>
+         <width>141</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#BitcoinIcon{
+	background: none;
+}</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
