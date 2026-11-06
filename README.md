@@ -18,8 +18,7 @@ A comprehensive Banking System application built with C++ and the Qt framework. 
 ![image](https://github.com/user-attachments/assets/ab66829e-2202-4f6e-9aa0-55b7b1e4fc3c)
 
 ## Getting Started
-## If you just want to try the application without compiling it yourself etc download the exe from here:
-https://github.com/pingminus/Qt-BankingSystem.exe
+
 
 ### Prerequisites
 
